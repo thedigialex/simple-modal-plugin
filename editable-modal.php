@@ -72,6 +72,7 @@ function editable_modal_display_modal() {
         <div><?php echo do_shortcode( $modal_content ); ?></div>
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
     jQuery(document).ready(function($) {
         var modal = $('#Modal');
